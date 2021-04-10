@@ -67,3 +67,9 @@ h2 {
     color: #94b5c0;
     text-transform: capitalize;
 }
+
+@media screen and (max-width:480px) {
+    body {
+        width: 100%;
+    }
+}        
