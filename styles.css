@@ -1,3 +1,4 @@
+/* css properties applied to body */
 body {
     background-color: #F1f5f8;
     transition: 1000ms;
@@ -78,7 +79,7 @@ h2 {
 
 /* media query to adjust the webite on screen 480px wider and smaller with the css properties mentioned below */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:989px) {
     .navbar-brand {
         font-size: 1.3rem;
         padding: 0 0 0 1rem;
