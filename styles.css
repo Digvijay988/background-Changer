@@ -21,7 +21,7 @@ body {
 
 .navbar-brand {
     font-size: 1.3rem;
-    padding: 0 4rem;
+    padding: 0 0 0 4rem;
     font-family: 'Rubik', 'sans-serif';
     letter-spacing: 6px;
 
@@ -69,7 +69,10 @@ h2 {
 }
 
 @media screen and (max-width:480px) {
-    body {
-        width: 100%;
+    .navbar-brand {
+        padding: 0 0 0 4rem;;
+    }
+     h2 {
+        font-size: 1.5rem;
     }
 }        
